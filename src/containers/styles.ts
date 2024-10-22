@@ -13,3 +13,20 @@ export const Produtos = styled.ul`
     grid-template-columns: 1fr;
   }
 `
+
+export const Loading = styled.div`
+  display: flex;
+  // border: 1px solid;
+  width: 100%;
+  height: 900px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 80px;
+    letter-spacing: 3px;
+    color: blue;
+    // margin: 0;
+  }
+`
